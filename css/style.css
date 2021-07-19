@@ -1,0 +1,493 @@
+  /*
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+ font-family: 'Sniglet', cursive; 
+ */
+
+ /* common start */
+ body{
+   background-image: url('../image/education.jpg');
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:#333333;
+
+}
+.c-content{
+   margin-bottom: 50px;
+}
+.c-h1{
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.c-border{
+  font-family: 'Sniglet', cursive; 
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.kid1 , .kid2 , .courses , .m_moment , .blog , .time , .timeline-news{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.c-green{
+  color:#56d47e !important ;
+}
+.c-pink{
+  color:#f05c5c  !important;
+}
+.c-yellow{
+  color: #ffd338  !important;}
+.c-blue{
+
+color: #1ec0ff !important;
+}
+/* common start */
+/* header start */
+header{
+  background: #ffd338;
+}
+.menu ul li a{
+  font-size: 18px;
+  font-weight: 700;
+  color: white !important;
+  padding: 3px 20px !important;
+  border-radius: 15px;
+
+}
+.menu ul li a:hover{
+  background-color: #f05c5c;
+}
+
+
+.d-user a , .d-search a{
+  color: white;
+}
+.d-user a:hover , .d-search a:hover{
+  color: #f05c5c;
+
+}
+.d-user a:focus , .d-search a:focus{
+  box-shadow: 0 0 0 0.25rem rgb(241 92 92);
+}
+.d-user ul , .d-search ul{
+
+  background-color:#ffd338 ; 
+}
+.d-user ul{
+  top: 165%;
+  left: -110px;
+}
+.d-search ul{
+  top: 165%;
+  left: -278px;
+  min-width: 370px;
+}
+input.form-control {
+  margin-left: 14px;
+  padding: 10px;
+}
+button {
+  margin-left: 5px;
+  padding: 8px 23px;
+  border: none;
+
+}
+.navbar-light .navbar-toggler {
+  border: 2px solid  #f05c5c !important ;
+}
+/* header end */
+/* banner start */
+.banner{
+
+  background-image: url('../image/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.b-content h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #1ec0ff;
+  margin-top: 300px;
+  margin-bottom: 310px;
+}
+
+.scroll p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  color: #bbbbbb;
+  text-transform: uppercase;
+}
+.scroll i{
+  font-size: 40px;
+  color: #bbbbbb;
+}
+/* /* banner start */
+/* kid1 start */
+.kid1{
+
+}
+
+.k1-contant{}
+.k1-contant h2{
+  font-size: 24px;
+  font-weight: 700;
+}
+.k1-contant hr{
+  width: 160px;
+  height: 3px;
+  color: #9b9595;
+}
+.k1-contant p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+.a-discover{
+  margin-top: 20px;
+  display: block;
+}
+.discover{}
+.k1-img img{
+  border-radius: 20px;
+  width: 100%;
+}
+/* kid1 end */
+/* kid2 start */
+.kid2 {
+  background-image: url(../image/kid-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  min-height: 500px;
+
+}
+.k2-single{}
+.k2-single img{}
+.k2-single h2{
+  margin-top: 15px;
+  font-size: 24px;
+  color: white;
+  font-weight: 400px;
+}
+/* kid2 end*/
+
+/* courses start */
+.courses{}
+.c-content2{
+  margin-bottom: 0;
+}
+.arrow{
+  margin: 5px auto;
+}
+/* card start */
+
+
+.card {
+  overflow: hidden;
+  padding: 0;
+  border: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+.card-header{
+  background-color: #1ec0ff;
+   font-size: 12px;
+   font-weight: 700;
+  color: white;
+}
+.yello{
+  background-color: #ffd338;
+}
+.green{
+  background-color:#56d47e ;
+}
+.pink{
+  background-color: #f05c5c;
+}
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  box-shadow: none;
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+
+}
+
+.card-text {
+  font-size: 14px;
+  color: #c9c9c9;
+  margin-top: .5em;
+  color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+  font-size: 1em;
+  position: static;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  padding: .75em 1em;
+  color: rgba(0, 0, 0, .4);
+  border-top: 1px solid rgba(0, 0, 0, .05) !important;
+  background: #fff;
+}
+
+.profile {
+  position: absolute;
+  top: -22px;
+  right: 40px;
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+.profile-avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.botton {
+  margin-top: 50px;
+}
+
+.botton a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white; 
+  background: #70d590;
+  width: 100%;
+  padding: 0px 555px;
+  border-radius: 20px;
+}
+/* card end */
+/* courses end */
+/* m_moment */
+.m_moment{
+  background-image: url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.m_img img{
+  width:270px;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 20px;
+
+}
+.discover2{
+  margin-top: 70px;
+}
+/* m_moment */
+/* .blog start */
+
+
+
+
+.single-blog{
+  margin-bottom: 20px;
+}
+.b_content{}
+.b_content h3{
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1ec0ff;
+}
+
+.b_prag{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color:#333333;
+ 
+
+}
+.b_content hr{}
+.b_prag2 {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 300;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.b_content a img{
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.b_content a li{
+  list-style: none;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+.teacher-img img{
+  border-radius: 20px;
+  width: 240px;
+  height: 290px;
+}
+/* .blog end */
+/* What we did star */
+.time{
+  background-image: url(../image/what\ we\ did.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.number h4{
+  font-family: 'Dosis', sans-serif;
+  font-size: 60px;
+  color: white;
+  margin-bottom: -15px;
+  text-align: center;
+}
+.number img{
+  margin-left: 72px;
+}
+.number p{
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+/* What we did end */
+
+
+/* timeline and news start */
+/* timeline */
+.timeline{
+  margin-bottom: 60px;
+}
+.timeline h3 , .r-news h3{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+
+}
+.image-and-text{
+  margin-bottom: 30px;
+}
+.h_5{
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+p span{
+  color:#1ec0ff;
+  font-size: 14px;
+}
+.time-p{
+  font-size: 14px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+}
+.register{
+  color: #fb9130;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* news */
+.news{
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.image img{
+  border-radius: 20px;
+
+}
+.h_2{
+  margin: 0px 15px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.c-border2 {
+  color: #1ec0ff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: -30px;
+}
+.text p{
+margin: 5px 15px;
+}
+/* timeline and news end */
+/* footer top start */
+
+input.form-control {
+  border-right: 0px;
+  margin-left: -2px;
+}
+.input-group-text {
+  background-color: white;
+  border-left:0;
+  color: #d6d6d6;
+}
+.f-border {
+  margin-bottom: 30px;
+}
+.ft-2{
+  margin-bottom: 30px;
+}
+.ft-img2 {
+  margin-bottom: 5px;
+}
+.ft-2 p{
+  margin-bottom: 32px;
+}
+.ft-1 h2{
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+ul.list-inline {
+  margin-bottom: 4px;
+ 
+}
+li.list-inline-item i{
+  color: #d6d6d6;
+}
+/* footer top start */
+/* footer start */
+footer {
+  background: #ffd338;
+  margin-top: 90px;
+}
+li.list-inline-item a , .border-right{
+text-decoration: none;
+color: white;
+font-size: 18px;
+font-weight: bold;
+padding: 20px 0;
+}
+.f-p{
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  float: right;
+  padding: 20px 0px;
+}
+
+/* footer end */

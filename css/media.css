@@ -1,0 +1,512 @@
+    /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* common start  */
+    .kid1, .kid2 , .courses , .m_moment , .blog , .time , .timeline-news{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    /* common end  */
+    /* header start */
+    a img {
+        width: 112px;
+    }
+
+    .menu ul li a {
+        padding: 3px 12px !important;
+    }
+    .menu ul li a:hover{
+        background: transparent;
+        color:  #f05c5c !important;
+    }
+    .d-user ul{
+        top: 105%;
+        left: 0;
+    }
+    .d-search ul{
+        min-width: 193px;
+        top: 105%;
+        left: 0;
+    }
+    button {
+        margin-left: -4px;
+        padding: 9px 15px;
+    }
+    input.form-control {
+        margin-left: 4px;}
+    /* header end */
+    /* banner start */
+    .b-content h1{
+        font-size: 33px;
+        margin-top: 80px;
+        margin-bottom: 90px;
+    }
+
+
+    .scroll p{
+        font-size: 16px;
+    }
+    .scroll i{
+        font-size: 20px;
+    }
+    /* banner end */
+    /* kid1 start */
+    .c-h1{ 
+        font-size: 25px;
+    }
+    .c-border{
+      font-size: 22px;
+    }
+    .c-content{
+        margin-bottom: 30px;
+    }
+    .k1-img{
+        margin-bottom: 30px;
+    }
+    .discover{
+        width: 180px;
+    }
+    
+
+    /* kid1 end */
+
+    /* kid2 start */
+     .k2-single img {
+        width: 90px;
+    }
+     .k2-single{
+        margin-bottom: 30px;
+    }
+    .k2-single h2{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .k2-single2{
+        margin-bottom: 0;
+    }
+    /* kid2 end */
+         /* courses start */
+ .c-content2{
+    margin-bottom: 50px;
+}
+.c-single{
+    margin-bottom: 30px;
+}
+ /* courses end */
+       /* card start */
+       .botton {
+        margin-top: 20px;
+    }
+    .botton a{
+        padding:0px 142px;
+    }
+    /* card end */
+/* m- moment start */
+.m_img img {
+    width: 284px;}
+.discover2 {
+    margin-top: 30px;
+}
+.single-blog {
+    margin-bottom: 0px;
+}
+/* m- moment end */
+/* blog stat */
+.b_content{
+    margin: 20px 17px;
+}
+.single-blog {
+    margin-bottom: 46px;
+}
+.teacher-img img {
+    width: 286px;
+}
+ /* blog end */
+  /* what we did start */
+.number h4 {
+    font-size: 35px;
+}
+.number img {
+     margin-left: 10px;
+     width: 110px;
+}
+.number p {
+    font-size: 18px;
+}
+/* what we did end */
+/* timeline and news start */
+.timeline , .r-news{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.time-image {
+    float: right;
+}
+.h_5 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.time-p {
+    letter-spacing: 1.2px;
+}
+.image img {
+    width: 100%;
+}
+.text {
+    text-align: center;
+    margin-top: 34px;
+}
+.text p {
+    margin: 6px 10px;
+}
+/* timeline and news end */
+/* timeline and news end */
+/* footer-top start */
+input.form-control {
+    margin-left: 0px;}
+.ft-1 h2 {
+    margin-top: 40px;
+}
+.f-border {
+    margin-bottom: 15px;
+}
+/* footer-top end */
+
+/* footer start */
+
+footer {
+    margin-top: 50px;}
+li.list-inline-item a , .border-right{
+    padding: 10px 0;
+    font-size: 11px;
+}
+
+.f-p {
+    padding: 10px 0px;
+    float: none;
+    text-align: center;
+    font-size: 12px;
+}
+/* footer end */
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header start */
+        /* common start  */
+        .kid1, .kid2 , .courses , .m_moment , .blog , .time , .timeline-news{ 
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        /* common end  */
+       .menu ul li a {
+        padding: 3px 12px !important;
+    }
+    .menu ul li a:hover{
+        background: transparent;
+        color:  #f05c5c !important;
+    }
+    a img {
+        width: 129px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 2px solid  #f05c5c !important ;
+ 
+    }
+    .d-user ul{
+        top: 105%;
+        left: 0;
+    }
+    .d-search ul{
+        top: 105%;
+        left: 0;
+    }
+    /* header end */
+    /* banner start */
+    .b-content h1{
+        font-size: 38px;
+        margin-top: 100px;
+        margin-bottom: 110px;
+    }
+     
+    .scroll p{
+    font-size: 16px;
+    }
+    .scroll i{
+    font-size: 20px;
+     }
+
+    /* banner end */
+    /* kid1 start */
+   
+    .c-h1{ 
+          font-size: 25px;
+      }
+      .c-border{
+        font-size: 25px;
+    }
+   
+    .c-content{
+        margin-bottom: 30px;
+    }
+    .k1-img{
+        margin-bottom: 30px;
+    }
+    .discover{
+        width: 200px;
+    }
+
+    /* kid1 end */
+       /* kid2 start */
+       .k2-single{
+        margin-bottom: 30px;
+    }
+    .k2-single h2{
+        font-size: 20px;
+    }
+    .k2-single2{
+        margin-bottom: 0;
+    }
+    /* kid2 end */
+     /* courses start */
+ .c-content2{
+    margin-bottom: 50px;
+}
+.c-single{
+    margin-bottom: 30px;
+}
+ /* courses end */
+      /* card start */
+      .botton {
+        margin-top: 30px;
+    }
+    .botton a{
+        padding:0px 259px;
+    }
+    /* card end */
+ /* m-moment start */
+ .m_img img {
+    width: 254px;
+    height: 189px;
+}
+
+ /* m-moment end */
+ /* what we did start */
+.number h4 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+.number img {
+    margin-left: 68px;
+    width: 119px;
+}
+.number p {
+    font-size: 20px;
+}
+/* what we did end */
+
+/* timeline and news start */
+.timeline , .r-news{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.time-image {
+    float: right;
+}
+.image img {
+    width: 100%;
+    margin: 0px 40px;
+}
+.text {
+    text-align: center;
+    margin-top: 34px;
+}
+.text p {
+    margin: 11px 48px;
+}
+/* timeline and news end */
+/* footer-top start */
+.ft-1 h2 {
+    margin-top: 40px;
+}
+.f-border {
+    margin-bottom: 15px;
+}
+li.list-inline-item a , .border-right{
+    padding: 10px 0;
+    margin-left: 11px;
+}
+
+.f-p {
+    padding: 10px 0px;
+    float: none;
+    text-align: center;
+    font-size: 16px;
+}
+/* footer-top end */
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+      
+    /* header start */
+    .menu ul li a {
+        padding: 3px 12px !important;
+    }
+    .menu ul li a:hover{
+        background: transparent;
+        color:  #f05c5c !important;
+    }
+    a img {
+        width: 150px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 2px solid  #f05c5c !important ;
+    }
+    .d-user ul{
+        top: 105%;
+        left: 0;
+    }
+    .d-search ul{
+        top: 105%;
+        left: 0;
+    }
+    /* header end */
+    /* banner start */
+    .b-content h1{
+        margin-top: 130px;
+        margin-bottom: 140px;
+    }
+    /* banner end */
+    /* kid1 start */
+    .k1-img{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .discover{
+        width: 200px;
+    }
+    /* kid1 end */
+    /* kid2 start */
+    .k2-single{
+        margin-bottom: 40px;
+    }
+    .k2-single2{
+        margin-bottom: 0;
+    }
+    /* kid2 end */
+       /* card start */
+       .botton {
+        margin-top: 40px;
+    }
+    .botton a{
+        padding: 0px 352px
+    }
+    /* card end */
+ /* courses start */
+ .c-content2{
+    margin-bottom: 50px;
+}
+.c-single{
+    margin-bottom: 30px;
+}
+ /* courses end */
+/* m-moment start*/
+    .m_img img {
+    width: 315px;
+    margin-top: 40px;
+}
+/* m-moment end */
+/* timeline and news start */
+.timeline , .r-news{
+    text-align: center;
+}
+.time-image {
+    float: right;
+}
+
+/* timeline and news end */
+/* footer-top start */
+.ft-1 h2 {
+    margin-top: 21px;}
+/* footer-top end */
+/* footer start */
+
+li.list-inline-item a , .border-right{
+font-size: 16px;
+padding: 10px 0;
+}
+.f-p{
+ 
+    padding: 10px 0px;
+}
+/* footer end */
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* banner start */
+    .b-content h1{
+        margin-top: 180px;
+        margin-bottom: 190px;
+    }
+    /* banner end */
+    /* card start */
+    .botton {
+        margin-top: 50px;
+    }
+    .botton a {
+            padding: 0px 466px;
+    }
+    /* card end */
+    /* m-moment start*/
+    .m_img img {
+        width: 223px;
+    }
+    /* m-moment end */
+        /* timeline and news start */
+        .image img {
+            height: 230px;
+        }
+        .h_5 {
+            margin-top: 6px;
+        }
+        /* timeline and news end */
+        /* footer-top start */
+        li.list-inline-item {
+            font-size: 14px;
+        }
+        /* footer-top end */
+ 
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    /* banner start */
+    .b-content h1{
+          margin-top: 260px;
+         margin-bottom: 290px;
+    }
+
+    /* banner end */
+ 
+    /* what we did start */
+    .number img {
+        margin-left: 48px;
+    }
+    /* what we did start */
+
+ }
+ /* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+    .b-content h1 {
+        margin-top: 390px;
+        margin-bottom: 300px;
+    }
+    .botton {
+        margin-top: 50px;
+    }
+    .botton a{
+        padding: 3px 646px;
+    }
+    }
